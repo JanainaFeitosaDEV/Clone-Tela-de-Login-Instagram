@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteiner-primario {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.container > img {
+    width: 300px;
+}
+
+.container {
+    width: 375px;
+    height: 400px;
+    background-color: white;
+    padding: 20px 20px;
+    border: 1px solid darkgrey;
+}
+
+input {
+    display: inline-block;
+    background-color: #f1f1f1;
+    margin-bottom: 10px;
+    width: 80%;
+    font-size: 14px;
+    padding: 9px 10px;
+    border: 1px solid lightgrey;
+}
+
+.submit-btn{
+    background-color: background-color: rgba(159, 209, 238, 0.979);
+    color: white;
+    padding: 9px;
+    width: 86%;
+    border: none;
+    border-radius: 3px;
+}
+
+.ou-linha {
+   margin: 20px 0;
+   color: grey; 
+}
+
+hr.linha {
+    display: inline-block;
+    border: 1px solid lightgrey;
+    width: 100px;
+    margin: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.fb {
+    font-size: 18px;
+    margin-bottom: 10px;
+
+}
+
+.fb >a {
+    color: darkblue;
+}
+
+.esquecida {
+    font-size: 14px;
+}
+
+.container-botao{
+    border: 1px solid darkgrey;
+    background-color: white;
+    margin-top: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.baixe-app {
+    margin: 20px 0;
+}
+
+.app-icones > img {
+    height: 40px;
+    padding: 0 3px;
+}
+
+@media screen and (min-width: 1000px){
+    .container-primario {
+        width: 50%;
+        height: 100%;
+    }
+
+}
